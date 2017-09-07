@@ -47,21 +47,15 @@ nav #main-nav li {
     position: absolute;
     top: 90px;
     left: 48px;
+    opacity: 0;
 }
+
 
 
 /*///////////////////////styles for links in main-nav li/////////////////////////*/
 
 
-/*
-nav #main-nav li a {
-    color: #3f3f3f;
-    text-decoration: none;
-    letter-spacing: 1px;
-    padding: 30px;
-    display: block;
-}
-*/
+
 
 nav #main-nav li a {
     color: #3f3f3f;
@@ -79,6 +73,10 @@ nav #main-nav li a:hover {
     transition: 1s padding;
     transition: 1s color;
     transition: 1s background-color;
+}
+nav #main-nav li a:hover .arrow-down {
+    opacity: 1;
+    transition: 0.8s opacity;
 }
 
 nav #main-nav li a:active {}

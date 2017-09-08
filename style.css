@@ -3,6 +3,8 @@ body {
     padding: 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
+    background-image: url(img/light_noise_diagonal_@2X.png);
+    background-repeat: repeat;
 }
 
 header #logo {
@@ -24,11 +26,10 @@ nav #main-nav {
     padding: 0;
     margin: 0px;
     margin-top: 40px;
-    border-bottom: 1px solid #939393;
-    color: #939393;
-    -webkit-box-shadow: 0px -4px 5px 0px rgba(147, 147, 147, 1);
-    -moz-box-shadow: 0px -4px 5px 0px rgba(147, 147, 147, 1);
-    box-shadow: 0px -4px 5px 0px rgba(147, 147, 147, 1);
+    border-top: 1px solid #C8C8C8;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(200, 200, 200, 0.8);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(200, 200, 200, 0.8);
+    box-shadow: 0px 4px 5px 0px rgba(200, 200, 200, 0.8);
 }
 
 nav #main-nav li {
@@ -41,11 +42,11 @@ nav #main-nav li {
 .arrow-down {
     width: 0;
     height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid #CC0000;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #CC0000;
     position: absolute;
-    top: 55px;
+    top: 64px;
     left: 31px;
     opacity: 0;
 }
@@ -59,16 +60,10 @@ nav #main-nav li a {
     letter-spacing: 1px;
     padding: 20px;
     display: block;
+    position: relative;
 }
 
-nav #main-nav li a:visited {
-    color: #3f3f3f;
-    text-decoration: none;
-    letter-spacing: 1px;
-    padding: 20px;
-    display: block;
-    
-}
+nav #main-nav li a:visited {}
 
 nav #main-nav li a:hover {
     background-color: #CC0000;
@@ -83,12 +78,46 @@ nav #main-nav li a:hover .arrow-down {
 
 nav #main-nav li a:active {}
 
+.container-ol {
+    position: absolute;
+    top: 115px;
+    left: 20px;
+}
+
 nav #main-nav li ol {
+    display: inline-block;
+}
+
+nav #main-nav li ol.first-ol {
     margin: 0px;
     padding: 0px;
-    display: none;
+    position: absolute;
+}
+
+nav #main-nav li .second-ol {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+nav #main-nav li .third-ol {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+nav #main-nav li ol li:first-child {
+    color: #CC0000;
+    border-bottom: 2px solid #c8c8c8;
 }
 
 nav #main-nav li ol li {
     list-style-type: none;
+    display: block;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 160px;
 }

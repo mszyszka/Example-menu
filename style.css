@@ -20,6 +20,7 @@ header #logo {
 }
 
 nav #main-nav {
+    position: relative;
     list-style-type: none;
     font-size: 2em;
     text-align: center;
@@ -36,8 +37,6 @@ nav #main-nav {
 nav #main-nav li {
     display: inline-block;
     text-align: center;
-    /*    Im setting position: relative, becouse i want set position for .arrow-down which has position: absolute*/
-    position: relative;
 }
 
 .arrow-down {
@@ -46,9 +45,10 @@ nav #main-nav li {
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     border-top: 12px solid #CC0000;
-    position: absolute;
-    top: 64px;
-    left: 31px;
+/*    Arrow position is relative to "a" element*/
+    position: relative;
+    top: 20px;
+    left: 0;
     opacity: 0;
 }
 
@@ -59,14 +59,11 @@ nav #main-nav li a {
     color: #3f3f3f;
     text-decoration: none;
     letter-spacing: 1px;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
     display: block;
-    position: relative;
 }
 
-nav #main-nav li a:visited {
-    
-}
+nav #main-nav li a:visited {}
 
 nav #main-nav li a:hover {
     background-color: #CC0000;
@@ -79,42 +76,204 @@ nav #main-nav li a:hover .arrow-down {
     transition: 1s opacity;
 }
 
-nav #main-nav li a:active {
+nav #main-nav li a:active {}
 
-}
 
-.container-ol {
+/*//////////////////////////////////////////////////////////////////////*/
+
+
+/*//////////////////////////mens dropdown styles////////////////////////*/
+
+.mens-container-ol {
     position: absolute;
-    top: 115px;
-    left: 20px;
+    top: 110px;
+    left: 344px;
+/*    display: none;*/
 }
 
-
-
-
-nav #main-nav li ol {
-    display: inline-block;
-}
-
-nav #main-nav li ol.first-ol {
+nav #main-nav li ol.mens-first-ol {
     margin: 0px;
     padding: 0px;
     position: absolute;
 }
 
-nav #main-nav li .second-ol {
+nav #main-nav li .mens-second-ol {
     padding: 0;
     position: absolute;
     top: 0;
     left: 200px;
 }
 
-nav #main-nav li .third-ol {
+nav #main-nav li .mens-third-ol {
     padding: 0;
     position: absolute;
     top: 0;
     left: 400px;
 }
+
+
+/*//////////////////////////////////////////////////////////////*/
+
+
+/*//////////////////////////womens dropdown styles////////////////////////*/
+
+.womens-container-ol {
+    position: absolute;
+    top: 110px;
+    left: 344px;
+    display: none;
+}
+
+nav #main-nav li ol.womens-first-ol {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+nav #main-nav li ol.womens-second-ol {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+nav #main-nav li ol.womens-third-ol {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////kids dropdown styles////////////////////////*/
+
+.kids-container-ol {
+    position: absolute;
+    top: 110px;
+    left: 344px;
+    display: none;
+}
+
+nav #main-nav li ol.kids-first-ol {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+nav #main-nav li ol.kids-second-ol {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+nav #main-nav li ol.kids-third-ol {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////sport dropdown styles////////////////////////*/
+
+.sport-container-ol {
+    position: absolute;
+    top: 110px;
+    left: 344px;
+    display: none;
+}
+
+nav #main-nav li ol.sport-first-ol {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+nav #main-nav li ol.sport-second-ol {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+nav #main-nav li ol.sport-third-ol {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////colection dropdown styles////////////////////////*/
+
+.colection-container-ol {
+    position: absolute;
+    top: 110px;
+    left: 344px;
+    display: none;
+}
+
+nav #main-nav li ol.colection-first-ol {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+nav #main-nav li ol.colection-second-ol {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+nav #main-nav li ol.colection-third-ol {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////sale dropdown styles////////////////////////*/
+
+.sale-container-ol {
+    position: absolute;
+    top: 110px;
+    left: 344px;
+    display: none;
+}
+
+nav #main-nav li ol.sale-first-ol {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+nav #main-nav li ol.sale-second-ol {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+nav #main-nav li ol.sale-third-ol {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
 
 nav #main-nav li ol li:first-child {
     color: #CC0000;

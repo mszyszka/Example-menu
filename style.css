@@ -45,7 +45,7 @@ nav #main-nav li {
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     border-top: 12px solid #CC0000;
-/*    Arrow position is relative to "a" element*/
+    /*    Arrow position is relative to "a" element*/
     position: relative;
     top: 20px;
     left: 0;
@@ -76,8 +76,41 @@ nav #main-nav li a:hover .arrow-down {
     transition: 1s opacity;
 }
 
-nav #main-nav li a:active {}
 
+
+/*////////Display submenu when hovering over one of the main menu li item/////////////*/
+
+nav #main-nav li:hover .mens-container-ol {
+    display: block;
+    
+}
+
+av #main-nav li:hover .mens-container-ol:hover {
+    display: block;
+    
+}
+
+nav #main-nav li:hover .womens-container-ol {
+    display: block;
+    
+}
+nav #main-nav li:hover .kids-container-ol {
+    display: block;
+    
+}
+nav #main-nav li:hover .sport-container-ol {
+    display: block;
+    
+}
+nav #main-nav li:hover .colection-container-ol {
+    display: block;
+    
+}
+nav #main-nav li:hover .sale-container-ol {
+    display: block;
+    
+}
+/*///////////////////////////////////////////////////////////////////////////////////*/
 
 /*//////////////////////////////////////////////////////////////////////*/
 
@@ -88,7 +121,7 @@ nav #main-nav li a:active {}
     position: absolute;
     top: 110px;
     left: 344px;
-/*    display: none;*/
+    display: none;
 }
 
 nav #main-nav li ol.mens-first-ol {
@@ -147,6 +180,7 @@ nav #main-nav li ol.womens-third-ol {
 
 /*//////////////////////////////////////////////////////////////////////*/
 
+
 /*//////////////////////////kids dropdown styles////////////////////////*/
 
 .kids-container-ol {
@@ -178,6 +212,7 @@ nav #main-nav li ol.kids-third-ol {
 
 
 /*//////////////////////////////////////////////////////////////////////*/
+
 
 /*//////////////////////////sport dropdown styles////////////////////////*/
 
@@ -211,6 +246,7 @@ nav #main-nav li ol.sport-third-ol {
 
 /*//////////////////////////////////////////////////////////////////////*/
 
+
 /*//////////////////////////colection dropdown styles////////////////////////*/
 
 .colection-container-ol {
@@ -242,6 +278,7 @@ nav #main-nav li ol.colection-third-ol {
 
 
 /*//////////////////////////////////////////////////////////////////////*/
+
 
 /*//////////////////////////sale dropdown styles////////////////////////*/
 

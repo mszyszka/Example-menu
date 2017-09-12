@@ -7,6 +7,10 @@ body {
     background-repeat: repeat;
 }
 
+.clearfix {
+    clear: both;
+}
+
 header #logo {
     margin: auto;
     width: 600px;
@@ -77,37 +81,35 @@ nav #main-nav li a:hover .arrow-down {
 }
 
 
-
 /*////////Display submenu when hovering over one of the main menu li item/////////////*/
 
 nav #main-nav li:hover .mens-container-ol {
     display: block;
-    
 }
-
-
 
 nav #main-nav li:hover .womens-container-ol {
     display: block;
-    
 }
+
 nav #main-nav li:hover .kids-container-ol {
     display: block;
-    
 }
+
 nav #main-nav li:hover .sport-container-ol {
     display: block;
-    
 }
+
 nav #main-nav li:hover .colection-container-ol {
     display: block;
-    
 }
+
 nav #main-nav li:hover .sale-container-ol {
     display: block;
-    
 }
+
+
 /*///////////////////////////////////////////////////////////////////////////////////*/
+
 
 /*//////////////////////////////////////////////////////////////////////*/
 
@@ -116,29 +118,31 @@ nav #main-nav li:hover .sale-container-ol {
 
 .mens-container-ol {
     position: absolute;
-    top: 110px;
     left: 344px;
+    padding-top: 50px;
     display: none;
+    margin: auto;
 }
 
 nav #main-nav li ol.mens-first-ol {
-    margin: 0px;
     padding: 0px;
-    position: absolute;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 nav #main-nav li .mens-second-ol {
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 200px;
+    padding: 0px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 nav #main-nav li .mens-third-ol {
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 400px;
+    padding: 0px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 
@@ -149,29 +153,31 @@ nav #main-nav li .mens-third-ol {
 
 .womens-container-ol {
     position: absolute;
-    top: 110px;
     left: 344px;
+    padding-top: 50px;
     display: none;
+    margin: auto;
 }
 
 nav #main-nav li ol.womens-first-ol {
-    margin: 0px;
     padding: 0px;
-    position: absolute;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 nav #main-nav li ol.womens-second-ol {
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 200px;
+    padding: 0px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 nav #main-nav li ol.womens-third-ol {
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 400px;
+    padding: 0px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 
@@ -182,29 +188,31 @@ nav #main-nav li ol.womens-third-ol {
 
 .kids-container-ol {
     position: absolute;
-    top: 110px;
     left: 344px;
+    padding-top: 50px;
     display: none;
+    margin: auto;
 }
 
 nav #main-nav li ol.kids-first-ol {
-    margin: 0px;
     padding: 0px;
-    position: absolute;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 nav #main-nav li ol.kids-second-ol {
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 200px;
+    padding: 0px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 nav #main-nav li ol.kids-third-ol {
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 400px;
+    padding: 0px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 
@@ -215,105 +223,96 @@ nav #main-nav li ol.kids-third-ol {
 
 .sport-container-ol {
     position: absolute;
-    top: 110px;
     left: 344px;
+    padding-top: 50px;
     display: none;
+    margin: auto;
+
+
 }
 
-nav #main-nav li ol.sport-first-ol {
-    margin: 0px;
+nav #main-nav li ol.sport-first-ol{
     padding: 0px;
-    position: absolute;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
 nav #main-nav li ol.sport-second-ol {
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 200px;
+    padding: 0px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
 nav #main-nav li ol.sport-third-ol {
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 400px;
+    padding: 0px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
 
 /*//////////////////////////////////////////////////////////////////////*/
-
 
 /*//////////////////////////colection dropdown styles////////////////////////*/
-
 .colection-container-ol {
     position: absolute;
-    top: 110px;
-    left: 344px;
+     left: 344px;
+    padding-top: 50px;
     display: none;
+    margin: auto;
 }
-
 nav #main-nav li ol.colection-first-ol {
-    margin: 0px;
     padding: 0px;
-    position: absolute;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
 nav #main-nav li ol.colection-second-ol {
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 200px;
+    padding: 0px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
 nav #main-nav li ol.colection-third-ol {
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 400px;
+    padding: 0px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
 
 /*//////////////////////////////////////////////////////////////////////*/
-
 
 /*//////////////////////////sale dropdown styles////////////////////////*/
-
 .sale-container-ol {
     position: absolute;
-    top: 110px;
     left: 344px;
+    padding-top: 50px;
     display: none;
+    margin: auto;
 }
-
 nav #main-nav li ol.sale-first-ol {
-    margin: 0px;
     padding: 0px;
-    position: absolute;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
 nav #main-nav li ol.sale-second-ol {
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 200px;
+    padding: 0px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
 nav #main-nav li ol.sale-third-ol {
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 400px;
+    padding: 0px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
 
 /*//////////////////////////////////////////////////////////////////////*/
-
 nav #main-nav li ol li:first-child {
     color: #CC0000;
     border-bottom: 2px solid #c8c8c8;
 }
-
 nav #main-nav li ol li {
     list-style-type: none;
     display: block;
@@ -323,3 +322,4 @@ nav #main-nav li ol li {
     width: 160px;
     color: #3f3f3f;
 }
+
